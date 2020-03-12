@@ -8,11 +8,11 @@ If you've stumbled across this and want to work at [Springload](https://www.spri
 
 Included in this repository is an [index.html](index.html) file that contains a form. You must ensure all of the following rules are met before the form is posted to the (in this case imaginary) server:
 
-* `Email` must be a valid email address.
-* `Password` must be longer than 8 characters.
-* `Colour` must be selected.
-* At least two `Animal`s must be chosen.
-* If `Tiger` is one of the chosen `Animal`s then `Type of tiger` is required to be a non-empty string.
+- `Email` must be a valid email address.
+- `Password` must be longer than 8 characters.
+- `Colour` must be selected.
+- At least two `Animal`s must be chosen.
+- If `Tiger` is one of the chosen `Animal`s then `Type of tiger` is required to be a non-empty string.
 
 ## Other requirements
 
@@ -20,8 +20,8 @@ If the form is submitted and an error occurs, the error element's parent should 
 
 ```html
 <p class="error">
-    <label for="field"></label>
-    <input id="field" type="text" value="foo">
+  <label for="field"></label>
+  <input id="field" type="text" value="foo" />
 </p>
 ```
 
@@ -41,3 +41,17 @@ Beyond the problem statement, show us the consideration you have given to some o
 ## Submission
 
 Please email us a link to your fork of this repository, or a zip of your solution to `1337h4x0r@springload.co.nz`.
+
+## Pre-requisites
+
+- Node
+- NPM
+
+## Getting started
+
+Run the following commands
+
+```
+npm install
+npm run-script start
+```
