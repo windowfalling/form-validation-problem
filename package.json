@@ -1,0 +1,35 @@
+{
+  "name": "springload-form-validation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "formik": "^2.1.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "yup": "^0.28.3"
+  },
+  "devDependencies": {
+    "browserslist": "^4.9.1",
+    "react-scripts": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "author": "Malin Malliya Wadu",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
